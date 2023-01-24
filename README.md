@@ -25,11 +25,11 @@
 
 
 ## Predictive Analytics
-- [Selecting a mode](Predictive_Analytics.md#selecting-a-model)
-- Configuring a Model
-- Training a model
-- Evaluating a model
-- Visualizing the outcome of a model
+- [Selecting a model](Predictive_Analytics.md#selecting-a-model)
+- [Configuring a Model](Predictive_Analytics.md#configuring-a-model)
+- [Training a model](Predictive_Analytics.md#training-a-model)
+- [Evaluating a model](Predictive_Analytics.md#evaluating-a-model)
+- [Visualizing the outcome of a model](Predictive_Analytics.md#visualizing-the-outcome-of-a-model)
 
 ## Data Preprocessing
 - Data exploration
