@@ -1,6 +1,6 @@
 # ADS_portfolio
 
-## About me
+## Over mij
 - Naam: Milan van Oeveren
 - Leeftijd: 21 jaar
 - Beroep: Student
@@ -8,10 +8,11 @@
 - Studentnummer: 22135073
 - Minor: Applied Data Science
 
-## Table of Contents  
-
 ## DataCamp Course Certificates
 
+## Predictive Analytics
+
+## Data preprocessing
+
 ## Communication
-#### Presentations
-#### Writing paper
+
