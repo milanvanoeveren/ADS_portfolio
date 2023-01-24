@@ -31,7 +31,7 @@
 - Evaluating a model
 - Visualizing the outcome of a model
 
-## Data preprocessing
+## Data Preprocessing
 - Data exploration
 - Data cleansing
 - Data preparation
