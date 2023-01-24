@@ -23,21 +23,20 @@
   ![datacamp_6-1](https://user-images.githubusercontent.com/123479172/214436590-94e5062f-e1fd-48fb-9195-188f09e304e5.jpg)
 </details>
 
-
 ## Predictive Analytics
 - [Selecting a model](Predictive_Analytics.md#selecting-a-model)
-- [Configuring a Model](Predictive_Analytics.md#configuring-a-model)
+- [Configuring a model](Predictive_Analytics.md#configuring-a-model)
 - [Training a model](Predictive_Analytics.md#training-a-model)
 - [Evaluating a model](Predictive_Analytics.md#evaluating-a-model)
 - [Visualizing the outcome of a model](Predictive_Analytics.md#visualizing-the-outcome-of-a-model)
 
 ## Data Preprocessing
-- Data exploration
-- Data cleansing
-- Data preparation
-- Data explanation
-- Data visualization
+- [Data exploration](Data_Preprocessing.md#data-exploration)
+- [Data cleansing](Data_Preprocessing.md#data-cleansing)
+- [Data preparation](Data_Preprocessing.md#data-preparation)
+- [Data explanation](Data_Preprocessing.md#data-explanation)
+- [Data visualization](Data_Preprocessing.md#data-visualization)
 
 ## Communication
-- Presentations 
-- Writing paper
+- [Presentations](Communication.md#presentations)
+- [Writing paper](Communication.md#writing-paper)
