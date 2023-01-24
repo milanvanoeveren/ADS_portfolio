@@ -1,5 +1,6 @@
 # Predictive Analytics
 
+<a name="selecting_model"></a>
 ## Selecting a model
 
 ## Configuring a Model
