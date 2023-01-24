@@ -25,7 +25,7 @@
 
 
 ## Predictive Analytics
-- Selecting a model
+- [Selecting a mode](Predictive_Analytics.md#selecting-a-model)
 - Configuring a Model
 - Training a model
 - Evaluating a model
