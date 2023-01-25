@@ -418,7 +418,7 @@ Ook heb ik de state binair gehouden, omdat dit voor de agent sneller te verwerke
 
 ## Training a model
 ### Foodboost
-todo
+Bij het foodboost project was ons model snel overfit, omdat we meer kolommen hadden dan rijen. Uiteindelijk heb ik met een scriptje ervoor gezorgd dat alleen de 200 meest voorkomende ingredienten meegnomen worden in de kolommen. Hierdoor is het model niet meer overfit. Ook hebben we de dataset gesplitst in een train, test en validatieset. Hierdoor was het mogelijk om te kijken of het model niet overfit of underfit was.
 
 ### Reinforcement Learning
 Voor het Reinforcement Learning gedeelte heb ik voor de finale versie van de code een script geschreven die de resultaten van het model met verschillende hyperparameters in een grafiek laat zien.
@@ -462,6 +462,12 @@ Ik heb mij beziggehouden met het [DecisionTree model](code/foodboost/scripts/mod
 - Naive Bayes
 
 Verder had ik bij mijn Decision Tree model een loop gedaan over de verschillende max_depths van de decision tree, om te kijken welke waardes de beste resultaten geven.
+
+Uiteindelijk hebben wij als groep gekozen voor het KNN model, omdat deze niet under- of overfit leek. Wij dachten dat de decision tree overfit was, omdat de precision vaak op 1 stond.
+Na dit met Jeroen te hebben besproken, bleek dit toch niet zo te zijn. Ook hebben wij KNN gekozen, omdat dit goed werkt bij grote datasets en de dataset die wij hebben gekregen was erg uitgebreid.
+
+## Visualizing the outcome of a model
+### FoodBoost
 De resultaten van mijn [DecisionTree model](code/foodboost/scripts/model.ipynb) zijn hieronder te vinden:
 
 **Resultaten per max_depth**
@@ -469,12 +475,6 @@ De resultaten van mijn [DecisionTree model](code/foodboost/scripts/model.ipynb) 
 
 **Confusion Matrix**
 - ![image](https://user-images.githubusercontent.com/123479172/214648172-c52b51be-35d0-47bf-8a4e-ada259a859b0.png)
-
-Uiteindelijk hebben wij als groep gekozen voor het KNN model, omdat deze niet under- of overfit leek. Wij dachten dat de decision tree overfit was, omdat de precision vaak op 1 stond.
-Na dit met Jeroen te hebben besproken, bleek dit toch niet zo te zijn. Ook hebben wij KNN gekozen, omdat dit goed werkt bij grote datasets en de dataset die wij hebben gekregen was erg uitgebreid.
-
-## Visualizing the outcome of a model
-### FoodBoost
 
 ### Reinforcement Learning
 Voor het Reinforcement Learning model heb ik verschillende keren de resultaten gevisualiseerd. Zo heb ik bijvoorbeeld de scores met verschillende learning rates, batch sizes en hidden layers geplot. Deze grafieken zagen er als volgt uit:
