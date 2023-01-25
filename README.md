@@ -28,7 +28,7 @@
 #### Scripts
 - [Dataset converter](code/foodboost/scripts/dataset_converter.py)
 - [Ingredient filter](code/foodboost/scripts/ingredients.py)
-- [Userdata Simulator](code/foodboost/scripts/simulate_users.ipynb)
+- [Userdata Simulator](code/foodboost/scripts/simulate_users.py)
 - [DecisionTree model](code/foodboost/scripts/model.ipynb)
 
 #### App
