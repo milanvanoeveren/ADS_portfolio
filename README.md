@@ -64,7 +64,7 @@ Na de derde versie kregen wij vooral de feedback dat ons model te traag was met 
 In de vorige versie werd bij elke zet opnieuw berekend of deze zet wel legaal was. Dit nam veel tijd in beslag, omdat dit bij elke zet voor elk vakje berekend moest worden.
 In de eindversie heb ik dit kunnen versnellen door een numpy array actions aan te maken, welke na elke zet geupdate werd. Hierdoor kon er gemakkelijk opgevraagd worden welke zetten legaal waren.
 Juriaan heeft zich in deze versie gefocust op het kunnen valideren van het model. Hij heeft in de Agent het mogelijk gemaakt om het model te laten stoppen met trainen en te kijken of het model niet overfit is.
-wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+
 De code van de eindversie is hier te vinden:
 - [Final Agent](code/container/final/agent.py)
 - [Final Environment](code/container/final/terminal_env.py)
