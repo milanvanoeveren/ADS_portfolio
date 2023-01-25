@@ -37,6 +37,10 @@ Voor Foodboost heb ik een aantal scripts gemaakt.
 Voor het FoodBoost project heb ik ook een [app](code/foodboost/app) gemaakt waarin de user input makkelijk kan worden opgenomen om een voorspelling te maken en dit te visualiseren.
 Wat ik hier precies voor heb gedaan is te vinden in [Predictive Analytics](Predictive_Analytics.md) en [Data Preprocessing](Data_Preprocessing.md).
 
+User input             |  Resultaat
+:-------------------------:|:-------------------------:
+![image](https://user-images.githubusercontent.com/123479172/214673698-e429efda-c626-45bb-9876-d4d22ac4d96a.png)  |  ![image](https://user-images.githubusercontent.com/123479172/214673761-981984b0-3d83-4671-953f-6476b8b6f8de.png)
+
 De belangrijkste code van de backend van de app is hier te vinden:
 - [App backend](code/foodboost/app/server/app.py)
 
