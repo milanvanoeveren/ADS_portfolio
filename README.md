@@ -31,6 +31,9 @@
 Voor het FoodBoost project heb ik ook een [app](code/foodboost/app) gemaakt waarin de user input makkelijk kan worden opgenomen om een voorspelling te maken en dit te visualiseren.
 Wat ik hier precies voor heb gedaan is te vinden in [Predictive Analytics](Predictive_Analytics.md) en [Data Preprocessing](Data_Preprocessing.md).
 
+De belangrijkste code van de backend van de app is hier te vinden:
+- [App backend](code/foodboost/app/server/app.py)
+
 ### Container
 Voor het container project had ik de grootste verantwoordelijkheid voor het schrijven van de code. De eindversie van de code is ontstaan na meerdere keren feedback te hebben gekregen van de docenten.
 Ook wat ik hier precies voor heb gedaan is te vinden in [Predictive Analytics](Predictive_Analytics.md) en [Data Preprocessing](Data_Preprocessing.md).
@@ -60,7 +63,8 @@ De code is hier te vinden:
 Na de derde versie kregen wij vooral de feedback dat ons model te traag was met trainen. In de nieuwe eindversie is de focus dan ook gelegd op het verkleinen van de trainingstijd.
 In de vorige versie werd bij elke zet opnieuw berekend of deze zet wel legaal was. Dit nam veel tijd in beslag, omdat dit bij elke zet voor elk vakje berekend moest worden.
 In de eindversie heb ik dit kunnen versnellen door een numpy array actions aan te maken, welke na elke zet geupdate werd. Hierdoor kon er gemakkelijk opgevraagd worden welke zetten legaal waren.
-
+Juriaan heeft zich in deze versie gefocust op het kunnen valideren van het model. Hij heeft in de Agent het mogelijk gemaakt om het model te laten stoppen met trainen en te kijken of het model niet overfit is.
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
 De code van de eindversie is hier te vinden:
 - [Final Agent](code/container/final/agent.py)
 - [Final Environment](code/container/final/terminal_env.py)
