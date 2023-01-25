@@ -39,11 +39,33 @@ Ook wat ik hier precies voor heb gedaan is te vinden in [Predictive Analytics](P
 Het eerste wat ik voor het container project had gedaan, was het proberen op te zetten van een omgeving waarin containers op een veld konden worden geplaatst.
 In de eerste versie heb ik dit gedaan door een 2d array in een dataframe te zetten. Verder was er in deze eerste versie een methode opgesteld waarmee er kon worden gekeken of en container wel bereikbaar was via de lange zijde.
 
-De code voor deze omgeving is hier te vinden: [Environment](code/container/v1/environment.py)
+De code voor deze omgeving is hier te vinden: [V1 Environment](code/container/v1/environment.py)
 
 #### Versie 2
+In de tweede versie is er van de environment een soort game gemaakt. In deze versie is het mogelijk om met een truck rond te rijden en containers op te pakken en te plaatsen.
+Ook heb ik een methode gemaakt die de game automatisch uitspeelt op basis van mogelijke moves. In deze environment worden de actions: left, right, up, down, pickup container en place container gebruikt. Ook worden alle handelingen hierin gevisualiseerd.
+
+De code is hier te vinden: [V2 Environment](code/container/v2/Terminal.py)
+
 #### Versie 3
+Na de tweede versie hadden we de feedback gekregen om het proces van het plaatsen van de container te versimpelen. In deze versie heb ik in plaats van de action left, right, up, down, pickup container en place container alleen de action place container (x, y).
+Jurriaan had een tutorial van Reinforcement Learning gevolgd om de game Snake na te maken. Ik heb vervolgens zijn agent en model gemerged met de environment die ik had gemaakt.
+
+De code is hier te vinden:
+- [V3 Agent](code/container/v3/Terminal_agent.py)
+- [V3 Environment](code/container/v3/Terminal_game.py)
+- [V3 Model](code/container/v3/Terminal_model.py)
+
 #### Final
+Na de derde versie kregen wij vooral de feedback dat ons model te traag was met trainen. In de nieuwe eindversie is de focus dan ook gelegd op het verkleinen van de trainingstijd.
+In de vorige versie werd bij elke zet opnieuw berekend of deze zet wel legaal was. Dit nam veel tijd in beslag, omdat dit bij elke zet voor elk vakje berekend moest worden.
+In de eindversie heb ik dit kunnen versnellen door een numpy array actions aan te maken, welke na elke zet geupdate werd. Hierdoor kon er gemakkelijk opgevraagd worden welke zetten legaal waren.
+
+De code van de eindversie is hier te vinden:
+- [Final Agent](code/container/final/agent.py)
+- [Final Environment](code/container/final/terminal_env.py)
+- [Final Model](code/container/final/dqn_model.py)
+
 
 ## Predictive Analytics
 - [Selecting a model](Predictive_Analytics.md#selecting-a-model)
