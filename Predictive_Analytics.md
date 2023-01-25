@@ -470,7 +470,13 @@ De resultaten van mijn [DecisionTree model](code/foodboost/scripts/model.ipynb) 
 **Confusion Matrix**
 - ![image](https://user-images.githubusercontent.com/123479172/214648172-c52b51be-35d0-47bf-8a4e-ada259a859b0.png)
 
+Uiteindelijk hebben wij als groep gekozen voor het KNN model, omdat deze niet under- of overfit leek. Wij dachten dat de decision tree overfit was, omdat de precision vaak op 1 stond.
+Na dit met Jeroen te hebben besproken, bleek dit toch niet zo te zijn. Ook hebben wij KNN gekozen, omdat dit goed werkt bij grote datasets en de dataset die wij hebben gekregen was erg uitgebreid.
+
 ## Visualizing the outcome of a model
+### FoodBoost
+
+### Reinforcement Learning
 
 
 # Bronnen
