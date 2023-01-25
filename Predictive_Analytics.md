@@ -162,6 +162,9 @@ print(f"        DONE PLACING ALL CONTAINERS IN {terminal.steps} STEPS")
 print("=========================================================================")
 ```
 
+**Visualisatie van de Environment**
+![image](https://user-images.githubusercontent.com/123479172/214648378-ed9fabba-9a57-458f-8f3f-9dda7db9742f.png)
+
 Na feedback van Tony dat we te complex zijn begonnen, heb ik de environment op een andere manier opgezet.
 Tony gaf als feedback dat we moeten beginnen met alleen het voorspellen van de plek waar de container moet komen.
 In de derde versie heb ik in plaats van de action left, right, up, down, pickup container en place container alleen de action place container (x, y) mogelijk gemaakt.
@@ -241,6 +244,9 @@ In de stukken code hieronder is te zien welke methodes van de V3 Environment wor
 
         return reward, done, new_score
 ```
+
+**Visualisatie van de Environment**
+![image](https://user-images.githubusercontent.com/123479172/214648554-d6bde3bf-b214-41ec-9488-9cedae74bf72.png)
 
 Na de derde versie kregen wij vooral de feedback dat ons model te traag was met trainen. 
 In de nieuwe eindversie is de focus dan ook gelegd op het verkleinen van de trainingstijd. 
@@ -404,6 +410,9 @@ In de stukken code hieronder is te zien hoe de laatste versie van het environmen
         return reward, done, self.score
 ```
 
+**Visualisatie van de Environment**
+![image](https://user-images.githubusercontent.com/123479172/214648685-7b5fd82d-d2ab-4be3-8fb2-b4696dbf2a60.png)
+
 Zoals te zien is, is de code veel compacter geworden en het environment kan veel efficiënter gebruikt worden dan bij de eerdere versies. De code is bijna 2 keer zo klein als de eerdere versies.
 Ook heb ik de state binair gehouden, omdat dit voor de agent sneller te verwerken is.
 
@@ -452,9 +461,14 @@ Ik heb mij beziggehouden met het [DecisionTree model](code/foodboost/scripts/mod
 - KNN
 - Naive Bayes
 
-Verder had ik bij mijn Decision Tree model een loop gedaan over de verschillende depths van de decision tree, om te kijken welke waardes de beste resultaten geven.
+Verder had ik bij mijn Decision Tree model een loop gedaan over de verschillende max_depths van de decision tree, om te kijken welke waardes de beste resultaten geven.
 De resultaten van mijn [DecisionTree model](code/foodboost/scripts/model.ipynb) zijn hieronder te vinden:
 
+**Resultaten per max_depth**
+![image](https://user-images.githubusercontent.com/123479172/214648093-e07f5c0b-07a4-42fa-bfc2-383d48ca68fb.png)
+
+**Confusion Matrix**
+![image](https://user-images.githubusercontent.com/123479172/214648172-c52b51be-35d0-47bf-8a4e-ada259a859b0.png)
 
 ## Visualizing the outcome of a model
 
