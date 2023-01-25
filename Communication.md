@@ -13,3 +13,5 @@ Voor de paper heeft iedereen individuele taken gekregen. Ik heb mij met de volge
 - Resultaten > Parameters
 - Resultaten > Opstelling 
 - Discussie > Reinforcement Learning
+
+En verder heb ik een spellingscontrole over het gehele document gedaan.
