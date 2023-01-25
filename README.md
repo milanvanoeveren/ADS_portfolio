@@ -26,10 +26,12 @@
 ## Code
 ### Foodboost
 #### Scripts
-- [Dataset converter](code/foodboost/scripts/dataset_converter.py)
-- [Ingredient filter](code/foodboost/scripts/ingredients.py)
-- [Userdata Simulator](code/foodboost/scripts/simulate_users.py)
-- [DecisionTree model](code/foodboost/scripts/model.ipynb)
+Voor Foodboost heb ik een aantal scripts gemaakt.
+
+- [Dataset converter](code/foodboost/scripts/dataset_converter.py): in dit script wordt de dataset omgezet, zodat de ingredienten in de kolommen staan in plaats van als string in de velden.
+- [Ingredient filter](code/foodboost/scripts/ingredients.py): in dit script worden de woorden die de maten aangeven uit de dataset gefilterd.
+- [Userdata Simulator](code/foodboost/scripts/simulate_users.py): in dit script wordt de userdata gegenereerd, zodat hier een train en test split van gemaakt kan worden.
+- [DecisionTree model](code/foodboost/scripts/model.ipynb): in dit script is mijn uitwerking te vinden ven het DecisionTree model.
 
 #### App
 Voor het FoodBoost project heb ik ook een [app](code/foodboost/app) gemaakt waarin de user input makkelijk kan worden opgenomen om een voorspelling te maken en dit te visualiseren.
