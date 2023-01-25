@@ -25,8 +25,25 @@
 
 ## Code
 ### Foodboost
+#### Scripts
+
+#### App
+Voor het FoodBoost project heb ik ook een [app](code/foodboost/app) gemaakt waarin de user input makkelijk kan worden opgenomen om een voorspelling te maken en dit te visualiseren.
+Wat ik hier precies voor heb gedaan is te vinden in [Predictive Analytics](Predictive_Analytics.md) en [Data Preprocessing](Data_Preprocessing.md).
+
 ### Container
-v1, final etc
+Voor het container project had ik de grootste verantwoordelijkheid voor het schrijven van de code. De eindversie van de code is ontstaan na meerdere keren feedback te hebben gekregen van de docenten.
+Ook wat ik hier precies voor heb gedaan is te vinden in [Predictive Analytics](Predictive_Analytics.md) en [Data Preprocessing](Data_Preprocessing.md).
+
+#### Versie 1
+Het eerste wat ik voor het container project had gedaan, was het proberen op te zetten van een omgeving waarin containers op een veld konden worden geplaatst.
+In de eerste versie heb ik dit gedaan door een 2d array in een dataframe te zetten. Verder was er in deze eerste versie een methode opgesteld waarmee er kon worden gekeken of en container wel bereikbaar was via de lange zijde.
+
+De code voor deze omgeving is hier te vinden: [Environment](code/container/v1/environment.py)
+
+#### Versie 2
+#### Versie 3
+#### Final
 
 ## Predictive Analytics
 - [Selecting a model](Predictive_Analytics.md#selecting-a-model)
