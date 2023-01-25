@@ -477,7 +477,14 @@ Na dit met Jeroen te hebben besproken, bleek dit toch niet zo te zijn. Ook hebbe
 ### FoodBoost
 
 ### Reinforcement Learning
+Voor het Reinforcement Learning model heb ik verschillende keren de resultaten gevisualiseerd. Zo heb ik bijvoorbeeld de scores met verschillende learning rates, batch sizes en hidden layers geplot. Deze grafieken zagen er als volgt uit:
+- ![image](https://user-images.githubusercontent.com/123479172/214652435-e1dde320-1bd1-4b30-9e3c-5dc5e67edca7.png)
+In deze grafieken is ook te zien dat sommige combinaties erg snel de maximale score behalen en dat andere combinaties hier meer moeite mee hebben.
 
+Verder heb ik ook voor de eindversie van de code nog meer combinaties getest en de gemiddelde score over 1000 games in 1 grafiek geplot. Dat was deze grafiek:
+- ![image](https://user-images.githubusercontent.com/123479172/214653752-b75221e6-48bb-4974-9eac-b12129d24d31.png)
+
+Ook hier is te zien dat sommige combinaties erg snel leren en andere combinaties erg slecht leren.
 
 # Bronnen
 - Odemakinde, E. (2022, 14 november). Model-Based and Model-Free Reinforcement Learning: Pytennis Case Study. neptune.ai. https://neptune.ai/blog/model-based-and-model-free-reinforcement-learning-pytennis-case-study
