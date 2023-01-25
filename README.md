@@ -82,11 +82,11 @@ De code van de eindversie is hier te vinden:
 - [Visualizing the outcome of a model](Predictive_Analytics.md#visualizing-the-outcome-of-a-model)
 
 ## Data Preprocessing
-- [Data exploration](Data_Preprocessing.md#data-exploration)
-- [Data cleansing](Data_Preprocessing.md#data-cleansing)
-- [Data preparation](Data_Preprocessing.md#data-preparation)
-- [Data explanation](Data_Preprocessing.md#data-explanation)
-- [Data visualization](Data_Preprocessing.md#data-visualization)
+- [Data exploration](Data_Preprocessing.md)
+- [Data cleansing](Data_Preprocessing.md)
+- [Data preparation](Data_Preprocessing.md)
+- [Data explanation](Data_Preprocessing.md)
+- [Data visualization](Data_Preprocessing.md)
 
 ## Communication
 - [Presentations](Communication.md#presentations)
