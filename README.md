@@ -28,7 +28,7 @@
 #### Scripts
 - [Dataset converter](code/foodboost/scripts/dataset_converter.py)
 - [Ingredient filter](code/foodboost/scripts/ingredients.py)
-- [KNN model](code/foodboost/scripts/k_neighbors__final.ipynb)
+- [DecisionTree model](code/foodboost/scripts/model.ipynb)
 
 #### App
 Voor het FoodBoost project heb ik ook een [app](code/foodboost/app) gemaakt waarin de user input makkelijk kan worden opgenomen om een voorspelling te maken en dit te visualiseren.

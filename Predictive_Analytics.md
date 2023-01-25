@@ -408,10 +408,53 @@ Zoals te zien is, is de code veel compacter geworden en het environment kan veel
 Ook heb ik de state binair gehouden, omdat dit voor de agent sneller te verwerken is.
 
 ## Training a model
-### Reinforcement Learning
+### Foodboost
+todo
 
+### Reinforcement Learning
+Voor het Reinforcement Learning gedeelte heb ik voor de finale versie van de code een script geschreven die de resultaten van het model met verschillende hyperparameters in een grafiek laat zien.
+Hierdoor kunnen de beste hyperparamaters worden gekozen.
+De code van het script voor het maken van de plot staat hieronder:
+
+```python
+df = pd.read_csv("tune_training.csv")
+groups = df.groupby("tune_name")
+
+fig = plt.figure(figsize=(10, 4))
+ax = fig.add_subplot(111)
+
+for name, group in groups:
+    mean_scores = []
+    i = 1
+    for score in group["score"]:
+        if i > 100:
+            scores = group["score"][i-100:i]
+        else:
+            scores = group["score"][:i]
+        scores_count = len(scores)
+        scores_sum = sum(scores)
+        mean_scores.append(scores_sum / scores_count)
+        i += 1
+
+    ax.plot(group["game_id"], mean_scores, label=f'{name}: {mean_scores[-1]}')
+    
+plt.show()
+```
+
+Uit de resultaten van deze test bleek dat een Learning Rate van 0.001 en een Batch Size van 128 het beste werkte. Vervolgens heb ik met de code van Jurriaan het model getraind en gevalideerd op basis van een train- en validatieset.
 
 ## Evaluating a model
+### Foodboost
+Voor het FoodBoost project hebben we een aantal verschillende modellen met elkaar vergeleken. 
+Ik heb mij beziggehouden met het [DecisionTree model](code/foodboost/scripts/model.ipynb). Verder heeft de rest van de groep zich bezig gehouden met:
+- KNN
+- Random Forest
+- KNN
+- Naive Bayes
+
+Verder had ik bij mijn Decision Tree model een loop gedaan over de verschillende depths van de decision tree, om te kijken welke waardes de beste resultaten geven.
+De resultaten van mijn [DecisionTree model](code/foodboost/scripts/model.ipynb) zijn hieronder te vinden:
+
 
 ## Visualizing the outcome of a model
 
